@@ -6,6 +6,9 @@
         <h1>
             paggina aboutTrain
         </h1>
+        @foreach($TrainDati as $elem)
+        <p>{{ $elem['Azienda'] }}</p>
+        @endforeach
     </div>
 </div>
 @endsection

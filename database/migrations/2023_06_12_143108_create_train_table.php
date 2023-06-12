@@ -21,10 +21,10 @@ return new class extends Migration
             $table->time('Orario_di_partenza');
             $table->time('Orario_di_arrivo');
             $table->string('Codice_Treno');
-            $table->string('Stazionedi_arrivo');
             $table->string('Numero_Carrozze');
-            $table->time('In_orario');
+            $table->string('In_orario');
             $table->string('Cancellato');
+            $table->timestamps();
 
 
             
